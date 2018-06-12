@@ -1,0 +1,36 @@
+body{
+
+
+  .create{
+    width:100%;
+
+    background-image: url("section-bg-4.jpg");
+    background-size: cover;
+
+
+    padding-top: 127px;
+    padding-bottom: 127px;
+
+    height: 571px;
+    margin-top: 154px;
+    
+    h1{
+      @extend %heads;
+    }
+    .intro3{
+      @extend %intros;
+    }
+    .conto{
+      @extend %contents;
+    }
+    hr{
+      @extend %hrs;
+      margin:inherit;
+
+    }
+    .btn_b{
+      @extend %bto;
+
+    }
+  }
+}

@@ -1,0 +1,28 @@
+body{
+  footer{
+    width: 100%;
+    color:white;
+    background-color: #303233;
+  .whi{
+    @extend %heads;
+    color: white;
+    font-size: 20px;
+  }
+  .lalo{
+    @extend %contents;
+    color:white;
+  }
+  .lio{
+    @extend %heads;
+    font-size: 14px;
+  }
+  .tento{
+    font-size: 10px;
+  }
+  hr{
+    @extend %hrs;
+    border-color:#fcca03;
+    margin: inherit;
+  }
+}
+}

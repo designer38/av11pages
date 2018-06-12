@@ -1,0 +1,25 @@
+body{
+  nav{
+    img{
+margin-top: 30px;
+      margin-left: 66px;
+      position:relative;
+      top:10px;
+    }
+  }
+.blogo{
+  height: 341px;
+    background-image: url("section-bg-11.jpg");
+    background-size: cover;
+    .intra{
+      @extend %intros;
+      color:#7a7a7a;
+    }
+    .intra2{
+      @extend %heads;
+      font-size: 54px;
+
+    }
+
+  }
+}

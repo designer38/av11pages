@@ -1,0 +1,41 @@
+body{
+  .display{
+
+
+  }
+  .date{
+
+    font-size: 10px;
+    color:#7a7a7a;
+  }
+  .par{
+    font-size: 18px;
+    font-family: "Raleway";
+    font-weight: "bold";
+  }
+  .pa{
+    @extend %contents;
+  }
+  .per{
+    margin-bottom: 126px;
+    color:black;
+    font-size: 10px;
+    font-family: "Raleway";
+    hr{
+      @extend %hrs;
+      border-color:#fcca03;
+      margin: inherit;
+    }
+
+    }
+    .first{
+      @extend %heads;
+      font-size: 20px;
+    }
+    .second{
+      @extend %contents;
+    }
+
+
+
+}

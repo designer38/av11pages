@@ -1,0 +1,21 @@
+body{
+  .comp2{
+width: 100%;
+    background-image: url("section-bg-5.jpg");
+    background-size: cover;
+    width:100%;
+    .diff{
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
+  .black{
+    i{
+      font-size: 30px;
+    }
+  }
+  .white{
+    @extend %contents;
+    font-size: 16px;
+  }
+}

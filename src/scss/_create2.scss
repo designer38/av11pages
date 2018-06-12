@@ -1,0 +1,42 @@
+body{
+  .create2{
+
+    background-size: cover;
+    width:100%;
+
+    padding-top: 130px;
+    margin-bottom: 161px;
+
+    height: 571px;
+    margin-top: 154px;
+    
+    h1{
+      @extend %heads;
+    }
+    .intro3{
+      @extend %intros;
+    }
+    .conto{
+      @extend %contents;
+    }
+    hr{
+      @extend %hrs;
+      margin:inherit;
+
+    }
+    .btn_b{
+      @extend %bto;
+      margin-top: 50px;
+
+    }
+    .lii{
+      font-size: 12px;
+      font-family: "Lato-Regular";
+      color:#7a7a7a;
+    }
+    .here{
+      margin-right:20px;
+      color:#fcca03;
+    }
+  }
+}

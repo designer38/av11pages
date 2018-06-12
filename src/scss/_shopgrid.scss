@@ -1,0 +1,40 @@
+body{
+
+  .blogo2{
+    height: 341px;
+    background-image: url("section-bg-shop.jpg");
+    background-size: cover;
+    .intra{
+      @extend %intros;
+      color:#7a7a7a;
+    }
+    .intra2{
+      @extend %heads;
+      font-size: 54px;
+
+    }
+  }
+  .palm{
+    .here2{
+      margin-right:20px;
+      color:black;
+    }
+
+
+    .lii{
+      font-size: 12px;
+      font-family: "Lato-Regular";
+      color:#7a7a7a;
+    }
+    .btn-k{
+      @extend %bto;
+
+    color:black;
+    border: none;
+    }
+    .yella{
+      background-color: #fcca03;
+      color: black;
+    }
+  }
+}

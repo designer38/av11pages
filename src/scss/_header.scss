@@ -1,0 +1,50 @@
+
+body{
+margin:0;
+a{
+  color:black;
+  font-weight: 600;
+}
+  header{
+
+    height: 100%;
+    width:100%;
+    background-image: url("section-bg-1.jpg");
+    background-size: cover;
+    height: 100%;
+    width:100%;
+
+    img{
+margin-top: 30px;
+      margin-left: 66px;
+      position:relative;
+      top:10px;
+    }
+    .intro{
+      color:black;
+      font-size: 24px;
+      font-family: "kaushan script";
+      text-decoration:"italic";
+    }
+    h1{
+      margin-top: 27px;
+      font-size: 100px;
+      font-family:"raleway";
+      font-weight: "bold";
+    }
+    .btn_a{
+  @extend %bto;
+margin-top:66px;
+
+      }
+
+    p{
+      width:90%;
+      color:#7a7a7a;
+      padding-top: 58px;
+      font-size: 14px;
+      font-family:"lato";
+    }
+  }
+
+}

@@ -1,0 +1,79 @@
+body{
+  .palm3{
+  .sub{
+    @extend %bto;
+    color:black;
+    font: 14px;
+    font-family: "Raleway";
+  }
+  .lines2{
+    font-size: 24px;
+    @extend %heads;
+  }
+  .dot{
+    @extend %heads;
+    font-size: 18px;
+  }
+  .here{
+    margin-right:20px;
+    color:#fcca03;
+  }
+  .lii{
+    font-size: 12px;
+    font-family: "Lato-Regular";
+    color:#7a7a7a;
+  }
+  .comme{
+    background-color: #f5f5f5;
+    background-image: url("two-quotes.png");
+    background-repeat: no-repeat;
+  }
+  .stand{
+    @extend %heads;
+  }
+
+
+  .lini{
+    @extend %heads;
+    font-size: 14px;
+  }
+  .wire{
+    @extend %contents;
+  }
+  .secondery{
+    width:370px;
+
+  }
+  .main{
+    width:770px;
+    height: 600px;
+  }
+  .lists{
+    p{
+      @extend %contents;
+    }
+    hr{
+      width: 370px;
+    }
+  }
+  .lines{
+    @extend %heads;
+    font-size: 18px;
+  }
+  .hue{
+    @extend %hrs;
+    border-color:#fcca03;
+    margin: inherit;
+  }
+  .inpi{
+    border:1px solid black;
+    height: 45px;
+    width: 370px;
+    text-align: center;
+    background-image: url("magnifying-glass.png")  ;
+
+    background-position: 320px 4px;
+       background-repeat: no-repeat;
+  }
+}
+}

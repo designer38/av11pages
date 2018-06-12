@@ -1,0 +1,21 @@
+body{
+  .aboutus{
+    background-image: url("section-bg-9.jpg");
+    background-size: cover;
+    height:340px;
+    
+    .intra{
+      @extend %intros;
+      color:#7a7a7a;
+    }
+    .intra2{
+      @extend %heads;
+      font-size: 54px;
+
+    }
+
+}
+.hea{
+  font-weight: bold;
+}
+}

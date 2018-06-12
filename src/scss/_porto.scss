@@ -1,0 +1,81 @@
+body{
+  .sta{
+    color:#7a7a7a;
+  }
+  .bo{
+
+    @extend %heads;
+  }
+  .bo2{
+    @extend %heads;
+    color: #fcca03;
+  }
+  .tra:hover{
+    background-color: #fcca03;
+    color:black;
+    border:none;
+
+  }
+  .dol5{
+    @extend %heads;
+    font-size: 24px;
+  }
+  .dol4{
+    @extend %heads;
+    font-size: 18px;
+  }
+  .dol3{
+    @extend %heads;
+    font-size: 30px;
+  }
+  .dol{
+    @extend %heads;
+    font-size: 20px;
+  }
+  .dol2{
+    @extend %contents;
+  }
+  .dol7{
+      @extend %contents;
+      text-decoration: line-through;
+  }
+  .btn_p{
+    @extend %bto;
+  
+
+
+  }
+  .porto{
+    background-image: url("section-bg-8.jpg");
+    background-size: cover;
+    height: 339px;
+    .intra{
+      @extend %intros;
+      color:#7a7a7a;
+    }
+    .intra2{
+      @extend %heads;
+      font-size: 54px;
+
+    }
+  }
+  .cat{
+    @extend %heads;
+    font-size: 18px;
+    color:#7a7a7a;
+  }
+  .uni{
+    @extend %heads;
+    font-size: 18px;
+    color:#fcca03;
+  }
+  .hue4{
+    @extend %hrs;
+    border-color:#fcca03;
+  }
+  .hue5{
+    @extend %hrs;
+    border-color:#fcca03;
+    margin:inherit;
+  }
+}

@@ -1,0 +1,76 @@
+body{
+  .noim{
+
+
+    
+    background-image: url("section-bg-19.jpg");
+    background-size: cover;
+
+
+    h1{
+      @extend %heads;
+    }
+    .intro3{
+      @extend %intros;
+    }
+    .conto{
+
+      @extend %contents;
+    }
+    .contoo{
+color:black;
+      @extend %contents;
+    }
+    .contooo{
+      margin-left: 44px;
+
+      @extend %contents;
+    }
+    hr{
+      @extend %hrs;
+      margin:inherit;
+
+    }
+    .btn_b{
+      @extend %bto;
+      margin-top: 50px;
+      margin-bottom: 57px;
+
+    }
+    .crc{
+      margin-right: 20px;
+      color:black;
+      border-radius: 100%;
+      border:2px solid black;
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+
+    }
+    .crc2{
+      margin-right: 20px;
+      color:black;
+      border-radius: 100%;
+      border:2px solid black;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+
+    }
+    .crc3{
+      background-color: #fcca03;
+      margin-right: 20px;
+      color:black;
+      border-radius: 100%;
+
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+
+    }
+
+  }
+}

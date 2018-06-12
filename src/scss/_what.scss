@@ -1,0 +1,22 @@
+body{
+  .exp{
+
+    h1{
+      margin-top: 16px;
+      @extend %heads;
+    }
+    .intro2{
+      margin-top: 144px;
+      @extend %intros;
+    }
+    .conte{
+      margin-top: 21px;
+     @extend %contents;
+    }
+    hr{
+
+      margin-top: 21px;
+      @extend %hrs;
+      }
+  }
+}

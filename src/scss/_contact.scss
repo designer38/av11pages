@@ -1,0 +1,26 @@
+body{
+  .blogo9{
+    background-image: url("section-bg-10.jpg");
+background-size: cover;
+    height: 375px;
+
+    .intra{
+      @extend %intros;
+      color:#7a7a7a;
+    }
+    .intra2{
+      @extend %heads;
+      font-size: 54px;
+
+    }
+
+  }
+  .din{
+  .exp10{
+
+      @extend %hrs;
+      border-color:#fcca03;
+
+    }
+  }
+  }
